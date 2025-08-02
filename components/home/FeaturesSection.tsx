@@ -7,7 +7,7 @@ interface Feature {
   title: string;
   description: string;
   icon: React.ReactNode;
-  linkTo: string; // Must be string (URL path)
+  linkTo: string; 
 }
 
 const features: Feature[] = [

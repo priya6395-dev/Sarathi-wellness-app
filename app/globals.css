@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Root theme variables */
+
 :root {
   --background: 0 0% 100%;
   --foreground: 222.2 84% 4.9%;
@@ -18,7 +18,7 @@
   --radius: 0.5rem;
 }
 
-/* Dark mode variables */
+
 .dark {
   --background: 224 71% 4%;
   --foreground: 213 31% 91%;
@@ -32,7 +32,7 @@
   --border: 216 34% 17%;
 }
 
-/* Base styles */
+
 @layer base {
   * {
     @apply border-border;
@@ -42,7 +42,7 @@
   }
 }
 
-/* Glassmorphism utility */
+
 .glass {
   @apply bg-white/30 backdrop-blur-md border border-white/20 shadow-glass;
 }

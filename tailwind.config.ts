@@ -1,11 +1,11 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: ["class"], // Enable dark mode by adding "dark" class to <html> or <body>
+  darkMode: ["class"], 
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",     // your app directory
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",   // pages directory
-    "./components/**/*.{js,ts,jsx,tsx,mdx}" // components directory
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",    
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",  
+    "./components/**/*.{js,ts,jsx,tsx,mdx}" 
   ],
   theme: {
     extend: {
