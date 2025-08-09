@@ -9,6 +9,7 @@ const nextConfig = {
   images: { unoptimized: true },
 
   webpack(config) {
+    // Add alias for '@' to resolve to project root directory
     config.resolve.alias['@'] = path.resolve(__dirname);
     return config;
   },
